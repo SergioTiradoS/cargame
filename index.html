@@ -118,59 +118,7 @@
             }else if(vHumanChoice.toString()=="h" ){
                 vCarInfoOutput.innerHTML= car.honk();
             }            
-                /*
-                if(vHumanChoice.toString()=="p" || vHumanChoice.toString()=="r" ||vHumanChoice.toString()=="s"){
-                    var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
-                    
-                    //Show the human choice image
-                    var image2 = document.getElementById('HumanChoiceImg');
 
-                    if(vHumanChoice.toString()=="p"){
-                        image2.src = 'Images/p.png';
-                    }else if(vHumanChoice.toString()=="r"){
-                        image2.src = 'Images/r.png';
-                    }else {
-                        image2.src = 'Images/s.png';
-                    }
-
-                    //Show the computer choice image
-                    var image = document.getElementById('ComputerChoiceImg');
-                    if(computerGuess.toString()=="p"){
-                        image.src = 'Images/p.png';
-                    }else if(computerGuess.toString()=="r"){
-                        image.src = 'Images/r.png';
-                    }else {
-                        image.src = 'Images/s.png';
-                    }
-
-                    var vHumanScoreText = document.getElementById("HumanScoreText");
-                    var vComputerScoreText = document.getElementById("ComputerScoreText");
-
-                    if(vHumanChoice.toString()=="r" && computerGuess.toString()=="s"){
-                        //sum 1 to human score
-                        vHumanScoreText.textContent = Number(vHumanScoreText.textContent.valueOf())+Number(1);
-                    }else if(vHumanChoice.toString()=="r" && computerGuess.toString()=="p"){
-                        //sum 1 to computer score
-                        vComputerScoreText.textContent = Number(vComputerScoreText.textContent.valueOf())+Number(1);
-                    }else if(vHumanChoice.toString()=="p" && computerGuess.toString()=="r"){
-                        //sum 1 to human score
-                        vHumanScoreText.textContent = Number(vHumanScoreText.textContent.valueOf())+Number(1);
-                    }else if(vHumanChoice.toString()=="p" && computerGuess.toString()=="s"){
-                        //sum 1 to computer score
-                        vComputerScoreText.textContent = Number(vComputerScoreText.textContent.valueOf())+Number(1);
-                    }if(vHumanChoice.toString()=="s" && computerGuess.toString()=="p"){
-                        //sum 1 to human score
-                        vHumanScoreText.textContent = Number(vHumanScoreText.textContent.valueOf())+Number(1);
-                    }else if(vHumanChoice.toString()=="s" && computerGuess.toString()=="r"){
-                        //sum 1 to computer score
-                        vComputerScoreText.textContent = Number(vComputerScoreText.textContent.valueOf())+Number(1);
-                    }else if(HumanChoice.toString()==computerGuess.toString()){
-                        alert("It's a tie!");
-                    }
-
-                }else{
-                    alert('Please choose [r]ock, [p]aper or [s]cissors: ' + vHumanChoice)
-                }*/
         };
 
     </script>
